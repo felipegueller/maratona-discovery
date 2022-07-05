@@ -1,0 +1,92 @@
+.container {
+  margin: 60px auto 0; /* top right/left bottom*/
+  padding: 20px;
+  max-width: 320px;
+  text-align: center;
+}
+
+/* Header */
+
+.header {
+  margin-bottom: 48px;
+}
+
+.header > .avatar {
+  margin: 0 auto 24px;
+  padding: 3.7px;
+  width: 150px;
+  height: 150px;
+  border: 4px solid var(--blue);
+  border-radius: 50%;
+
+}
+
+.header > .avatar > img {
+  border-radius: 50%;
+}
+
+.header > .name {
+  margin-bottom: 8px;
+  font-weight: 700;
+}
+
+.header > .username {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--medium-blue);
+}
+
+/* Nav links */
+.link-list {
+  margin-bottom: 48px;
+}
+
+.link-list > li:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+.link-list > li > .link {
+  width: 100%;
+  height: 53px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--blue);
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: uppercase;
+  border-radius: 6px;
+  transition: all 200ms ease;
+}
+
+.link-list > li > .link:hover {
+  transition: all 200ms ease;
+  color: var(--medium-blue);
+  border: 1px solid var(--blue);
+  background-color: #4264eb38;
+}
+
+.link-list > li > .link i {
+  padding-right: 5px;
+}
+
+.footer > p {
+  font-weight: 500;
+  color: var(--medium-blue);
+}
+
+.footer > p > a:hover {
+  color: var(--dark-blue);
+}
+
+@media screen and (max-width: 400px) {
+  .header > .avatar {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+
