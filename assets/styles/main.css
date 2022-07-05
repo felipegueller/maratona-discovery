@@ -3,12 +3,16 @@
   padding: 20px;
   max-width: 320px;
   text-align: center;
+  opacity: 0;
+  animation: fade 1s forwards;
 }
 
 /* Header */
 
 .header {
   margin-bottom: 48px;
+  opacity: 0;
+  animation: fade-left 1s ease 800ms forwards;
 }
 
 .header > .avatar {
@@ -40,6 +44,8 @@
 /* Nav links */
 .link-list {
   margin-bottom: 48px;
+  opacity: 0;
+  animation: fade-left 1s ease 1.2s forwards;
 }
 
 .link-list > li:not(:last-child) {
@@ -76,11 +82,33 @@
 .footer > p {
   font-weight: 500;
   color: var(--medium-blue);
+  opacity: 0;
+  animation: fade-left 1s ease 1.4s forwards;
 }
 
 .footer > p > a:hover {
   color: var(--dark-blue);
 }
+
+/* Animations */
+
+@keyframes fade {
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-left {
+  from {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
 
 @media screen and (max-width: 400px) {
   .header > .avatar {
