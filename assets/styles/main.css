@@ -7,6 +7,8 @@ body {
 .aside {
   display: none;
   height: auto;
+  opacity: 0;
+  animation: var(--main-fade-animation);
 }
 
 .container {
@@ -15,7 +17,7 @@ body {
   display: grid;
   text-align: center;
   opacity: 0;
-  animation: fade 1.4s forwards;
+  animation: var(--main-fade-animation);
   background-color: #f5f5f5;
   background-color: var(--bg-card);
   border: 1px solid #ddd;
@@ -62,6 +64,8 @@ body {
 
 .career {
   margin-bottom: 32px;
+  opacity: 0;
+  animation: fade-left 1s ease 1.3s forwards;
 }
 
 .career > h2 {
@@ -80,7 +84,7 @@ body {
 .link-list {
   margin-bottom: 48px;
   opacity: 0;
-  animation: fade-left 1s ease 1.2s forwards;
+  animation: fade-left 1s ease 1.8s forwards;
 }
 
 .link-list > li:not(:last-child) {
@@ -118,7 +122,7 @@ body {
   font-weight: 500;
   color: var(--medium-blue);
   opacity: 0;
-  animation: fade-left 1s ease 1.4s forwards;
+  animation: fade-left 1s ease 2.3s forwards;
 }
 
 .footer > p > a:hover {

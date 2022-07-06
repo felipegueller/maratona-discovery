@@ -8,7 +8,9 @@
   --dark-blue: #00082F;
   --medium-blue: #00082fcc;
   --light-blue: #00082f99;
-  --extra-light-blue: #4264eb38; 
+  --extra-light-blue: #4264eb38;
+  
+  --main-fade-animation: fade 2.3s forwards;
 
   --primary-font-family: 'Roboto', sans-serif;
   --secondary-font-family: 'Roboto Mono', monospace;
