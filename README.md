@@ -1,10 +1,7 @@
 <h1 align="center">🚀 Maratona Discovery</h1>
 
-<h1 align="center">
-  <img src="https://www.rocketseat.com.br/assets/logos/rocketseat.svg" alt="Logo of Rocketseat" />
-</h1>
-
 <p align="center">
+<img style="display: block;" src="https://www.rocketseat.com.br/assets/logos/rocketseat.svg" alt="Logo of Rocketseat" />
 The project was proposed by programming school <a href="https://discord.gg/wNCWTVuxyz" target="_blank">@Rocketseat</a>
 </p>
 
@@ -16,17 +13,30 @@ The project was proposed by programming school <a href="https://discord.gg/wNCWT
 
   - [About](#about)
   - [Gifs](#gifs)
-   - [Desktop][#desktop]
-   - [Mobile][#Mobile]
+    - [Desktop](#desktop)
+    - [Mobile](#mobile)
   - [Figma](#figma)
   - [Technologies](#tech)
-  - [Library](#library)
   - [Demo](#demo)
   - [Author](#author)
 
 <h2 id="about">📃 About</h2>
 
 This challenge consisted of creating a custom personal page with links to access my social media. The base layout was provided by them on [Figma](https://www.figma.com/), and also some support classes on their programming week. Feel free to look more about it!
+
+<h2 id="gifs">👾 Gifs</h2>
+
+<h3 id="desktop">📱 Desktop layout</h3>
+
+<h4 align="center">
+  <img src="./assets/img/rocketlink-desktop.gif" alt="App GIF desktpop version" />
+</h4>
+
+<h3 id="mobile">🖥️ Mobile layout</h3>
+
+<h4 align="center">
+  <img src="./assets/img/rocketlink-mobile.gif" alt="App GIF mobile version" />
+</h4>
 
 <h2 id="figma">🖼️ Figma</h2>
 
@@ -39,19 +49,14 @@ Bellow is all technologies used in this project:
 <div style="display: flex; gap: 10px">
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="html"/>
 <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="css"/>
-<img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="javascript"/>
 <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="git"/>
 <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="figma"/>
 
 </div>
 
-<h2 id="library">📚 Library</h2>
-
-The [ScrollReveal](https://github.com/jlmakes/scrollreveal) library was used to create the simple fade animation for the posts.
-
 <h2 id="demo">🕶️ Demo</h2>
 
-You can see the demo [clicking here!](https://felipegueller.github.io/desafios-codelandia/challenge_01/)
+You can see the demo [clicking here!](https://felipegueller.github.io/maratona-discovery/)
 
 <h2 id="author">👨‍🔬 Author</h2>
 
