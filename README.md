@@ -1,7 +1,10 @@
 <h1 align="center">🚀 Maratona Discovery</h1>
 
+<h1 align="center">
+  <img src="https://www.rocketseat.com.br/assets/logos/rocketseat.svg" alt="Logo of Rocketseat" />
+</h1>
+
 <p align="center">
-<img style="display: block;" src="https://www.rocketseat.com.br/assets/logos/rocketseat.svg" alt="Logo of Rocketseat" />
 The project was proposed by programming school <a href="https://discord.gg/wNCWTVuxyz" target="_blank">@Rocketseat</a>
 </p>
 
@@ -25,6 +28,8 @@ The project was proposed by programming school <a href="https://discord.gg/wNCWT
 This challenge consisted of creating a custom personal page with links to access my social media. The base layout was provided by them on [Figma](https://www.figma.com/), and also some support classes on their programming week. Feel free to look more about it!
 
 <h2 id="gifs">👾 Gifs</h2>
+
+Below, you can see the captured GIFs about this project on both models (desktop and mobile).
 
 <h3 id="desktop">📱 Desktop layout</h3>
 
