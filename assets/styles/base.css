@@ -1,5 +1,6 @@
 :root{
   --bg-body: #E5E5E5;
+  --bg-card: #f7f7f7;
 
   --white: #fff;
   --purple: #886ce4;
@@ -8,6 +9,9 @@
   --medium-blue: #00082fcc;
   --light-blue: #00082f99;
   --extra-light-blue: #4264eb38; 
+
+  --primary-font-family: 'Roboto', sans-serif;
+  --secondary-font-family: 'Roboto Mono', monospace;
 }
 
 * {
@@ -17,9 +21,10 @@
 }
 
 body {
+  width: 100%;
   min-height: 100vh;
   background-color: var(--bg-body);
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--primary-font-family);
 }
 
 img {
