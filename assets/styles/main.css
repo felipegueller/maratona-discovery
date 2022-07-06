@@ -1,16 +1,35 @@
+body {
+  padding: 40px 0;
+  display: grid;
+  justify-content: center;
+}
+
+.aside {
+  display: none;
+  max-width: 300px;
+  height: auto;
+}
+
 .container {
-  margin: 60px auto 0; /* top right/left bottom*/
+  /* margin: 0 auto; */
   padding: 20px;
   max-width: 320px;
   text-align: center;
   opacity: 0;
-  animation: fade 1s forwards;
-}
+  animation: fade 1.4s forwards;
+  background-color: #f5f5f5;
+  background-color: var(--bg-card);
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 
+    3px 8px 30px 0 rgb(52 57 61 / 30%),
+    -3px -4px 12px 0 rgb(52 57 61 / 15%);
+} 
 
 /* Header */
 
 .header {
-  margin-bottom: 48px;
+  margin-bottom: 24px;
   opacity: 0;
   animation: fade-left 1s ease 800ms forwards;
 }
@@ -32,13 +51,32 @@
 .header > .name {
   margin-bottom: 8px;
   font-weight: 700;
+  color: var(--dark-blue);
 }
 
 .header > .username {
-  font-family: 'Roboto Mono', monospace;
+  font-family: var(--secondary-font-family);
   font-weight: 400;
   font-size: 18px;
   color: var(--medium-blue);
+}
+
+/* Abilities */
+
+.career {
+  margin-bottom: 32px;
+}
+
+.career > h2 {
+  margin-bottom: 8px;
+  font-size: 18px;
+  color: var(--medium-blue);
+}
+
+.career .abilities {
+  font-family: var(--secondary-font-family);
+  font-size: 14px;
+  color: var(--dark-blue);
 }
 
 /* Nav links */
@@ -106,6 +144,16 @@
   to {
     opacity: 1;
     transform: translateX(0);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #main-container {
+    justify-content: center;
+  }
+
+  .aside {
+    display: none;
   }
 }
 
