@@ -155,30 +155,26 @@ body {
   }
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 768px) {
   #main-container {
     grid-template-columns: repeat(2, auto);
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
   }
 
   .aside {
     display: block;
-    max-width: 350px;
+    max-width: 300px;
   }
 }
 
 @media screen and (min-width: 991px) {
-  #main-container {
-    justify-content: space-around;
-  }
-
   .aside {
     max-width: 400px;
   }
 }
 
-@media screen and (min-width: 991px) {
+@media screen and (min-width: 1200px) {
   #main-container {
     justify-content: space-evenly;
   }
