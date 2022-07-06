@@ -1,4 +1,7 @@
-body {
+#main-container {
+  margin: 0 auto;
+  max-width: 1400px;
+  min-width: 280px;
   padding: 40px 20px;
   display: grid;
   justify-content: center;
